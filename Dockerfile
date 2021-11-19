@@ -3,5 +3,5 @@ FROM nextcloud
 RUN apt-get update && apt-get install -y --no-install-recommends \
         procps \
         smbclient \
-        libmagickcore-6.q13-3-extra \
+        libmagickcore-* \
         && rm -rf /var/lib/apt/lists/*
